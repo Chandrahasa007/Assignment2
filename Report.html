@@ -1,0 +1,44 @@
+<form>
+  <link rel="stylesheet" href="Style.css" />
+  <h2>Registration Form</h2>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required />
+
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male" required />
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender" value="female" required />
+  <label for="female">Female</label>
+
+  <input type="radio" id="other" name="gender" value="other" required />
+  <label for="other">Other</label>
+
+  <label for="interests">Interests:</label>
+  <input type="checkbox" id="sports" name="interests" value="sports" />
+  <label for="sports">Sports</label>
+
+  <input type="checkbox" id="music" name="interests" value="music" />
+  <label for="music">Music</label>
+
+  <input type="checkbox" id="books" name="interests" value="books" />
+  <label for="books">Books</label>
+
+  <label for="country">Country:</label>
+  <select id="country" name="country">
+    <option value="USA">United States</option>
+    <option value="UK">United Kingdom</option>
+    <option value="Canada">Canada</option>
+    <option value="Australia">Australia</option>
+    <!-- Add more options as needed -->
+  </select>
+
+  <input type="submit" value="Submit" />
+</form>
